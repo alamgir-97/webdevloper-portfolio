@@ -68,7 +68,7 @@ nav a {
 .banner-content {
   max-width: 500px;
 }
-. banner .profile-pic {
+.banner .profile-pic {
   width: 500px;
 }
 .banner-greetings {
@@ -116,16 +116,56 @@ nav a {
 }
 .info-title {
   color: #757575;
-  text-align: center;  
-  font-size: 18px;  
+  text-align: center;
+  font-size: 18px;
   font-weight: 400;
   line-height: 30px;
 }
 
 .info-description {
-    color: #555454;
-    text-align: center;  
-    font-size: 20px;  
-    font-weight: 700;
-    line-height: 30px;
-  }
+  color: #555454;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+/* what I do section styles */
+.i-do-section-container {
+  width: 1100px;
+  margin: 100px auto;
+}
+#i-do-section-description {
+  padding: 30px 150px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.i-do-section-title {
+  text-align: center;
+}
+.skills-container {
+  display: flex;
+  gap: 20px;
+}
+
+.skills{
+    border: 1px solid #757575;
+    padding: 20px 10px;
+}
+.skills-icon {
+  width: 80px;
+  height: 80px;  
+  padding-bottom: 15px;
+}
+.skills-title {
+font-size: 20px;
+  line-height: 40px;
+  padding-bottom: 15px;
+}
+.skills-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
